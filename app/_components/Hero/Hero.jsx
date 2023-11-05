@@ -1,6 +1,6 @@
 import styles from "./hero.module.css";
 import Marquee from "react-fast-marquee";
-import Image from "next/image";
+
 
 export default function Hero() {
   return (
