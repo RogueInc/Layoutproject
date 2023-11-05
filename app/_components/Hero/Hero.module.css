@@ -1,0 +1,57 @@
+.hero {
+  height: 92vh;
+  width: 100vw;
+  position: absolute;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.test {
+  color: aquamarine;
+}
+.mainmarq {
+  position: relative;
+  width: 100%;
+  bottom: 30%;
+  rotate: -6deg;
+  font-size: 40px;
+  padding: 0;
+  background-color: blueviolet;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  z-index: 10;
+}
+.mainmarq span{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.stuffsection {
+  display: flex;
+}
+.leftdiv {
+  flex: 3;
+  height: calc(100vh - 5vh);
+  /* background-image: url("https://cdn.pixabay.com/photo/2019/01/09/14/13/leaves-3923413_1280.jpg");
+  background-size: fill; */
+}
+.rightdiv {
+  flex: 2;
+  height: calc(100vh - 5vh);
+  background-image: url("https://cdn.pixabay.com/photo/2019/01/09/14/13/leaves-3923413_1280.jpg");
+  background-size: fill;
+  background-color: beige;
+}
+.flower {
+  position: relative;
+  right: 23%;
+  top: 40%;
+  scale: 1.2;
+  z-index: 20;
+  rotate: 1turn;
+}
+.text{
+    font-size: 4em;
+    padding: 1rem;
+}
+.text span{
+    color:blueviolet;
+}
